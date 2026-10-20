@@ -44,7 +44,7 @@
 
 <h2>How information is stored</h2>
 <ul>
-  <li>The OAuth refresh token is stored as an encrypted secret on a private server controlled by the owner. It is not stored in source code or shared files.</li>
+  <li>The OAuth refresh token is stored on a private server controlled by the owner, in a file with restricted permissions readable only by the owner. It is not stored in source code or shared files.</li>
   <li>Access tokens are short-lived and are held only in memory while a request is being made.</li>
   <li>Channel details and upload status may be kept in simple server logs or records for the owner's own reference, on the same private server.</li>
   <li>Shorts Uploader does not use cookies or tracking on these web pages.</li>
