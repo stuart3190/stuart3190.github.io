@@ -12,3 +12,10 @@ a{color:#0b57d0}
 .meta{color:#57606a;font-size:.9rem;margin-top:0}
 footer{border-top:1px solid #e5e7eb;margin-top:40px;padding-top:12px;padding-bottom:32px;color:#57606a;font-size:.9rem}
 code{background:#f3f4f6;padding:1px 4px;border-radius:4px}
+.policy-links{margin:12px 0 16px}
+.btn{display:inline-block;padding:6px 14px;margin-right:8px;border:1px solid #0b57d0;border-radius:6px;font-weight:600;text-decoration:none}
+.yt-box{display:flex;gap:16px;align-items:center;border:1px solid #e5e7eb;border-radius:8px;padding:12px 16px;margin:20px 0;background:#fff}
+.yt-box h2{margin:0 0 4px;font-size:1.05rem}
+.yt-box p{margin:0;font-size:.95rem}
+.yt-badge{flex:0 0 auto;line-height:0}
+@media (max-width:560px){.yt-box{flex-direction:column;align-items:flex-start}}
