@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shorts Uploader</title>
+<meta name="description" content="Shorts Uploader is a private, single-user tool that uploads Stuart Robinson's own YouTube Shorts to his own YouTube channel using the YouTube Data API.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a class="brand" href="index.html">Shorts Uploader</a>
+  <nav><a href="index.html">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
+</header>
+<main>
+<h1>Shorts Uploader</h1>
+<p class="meta">Last updated: 20 October 2026</p>
+
+<p>Shorts Uploader is a small, private tool that uploads finished YouTube Shorts made by Stuart Robinson to his own YouTube channel. It runs on a private server and is used only by its owner. It is not offered to the public and does not have other users.</p>
+
+<h2>What it does</h2>
+<ul>
+  <li>Uploads Stuart Robinson's own finished short videos, with their title, description and related details, to his own YouTube channel.</li>
+  <li>Reads basic information about that same channel and the status of its uploads (for example, whether a video has finished processing), so the tool can confirm an upload worked.</li>
+</ul>
+
+<h2>How it works</h2>
+<p>Shorts Uploader uses the official <a href="https://developers.google.com/youtube/v3">YouTube Data API v3</a>, authorised through Google OAuth. It requests only these permissions:</p>
+<ul>
+  <li><code>https://www.googleapis.com/auth/youtube.upload</code> – to upload videos to the owner's channel.</li>
+  <li><code>https://www.googleapis.com/auth/youtube.readonly</code> – to read the owner's channel details and upload status.</li>
+</ul>
+<p>It does not download, copy or re-upload anyone else's content, and it does not interact with other YouTube users.</p>
+
+<h2>YouTube and Google terms</h2>
+<p>Shorts Uploader uses YouTube API Services. By using it you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Information handled through YouTube API Services is also subject to the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h2>Your data and revoking access</h2>
+<p>The OAuth refresh token is kept as an encrypted secret on a private server. Nothing is shared or sold. Access can be revoked at any time at <a href="https://security.google.com/settings/security/permissions">https://security.google.com/settings/security/permissions</a>. Full details are in the <a href="privacy.html">Privacy Policy</a>.</p>
+
+<h2>Policies</h2>
+<ul>
+  <li><a href="privacy.html">Privacy Policy</a></li>
+  <li><a href="terms.html">Terms of Service</a></li>
+</ul>
+
+<h2>Contact</h2>
+<p>Email <a href="mailto:snapreel247@gmail.com">snapreel247@gmail.com</a>.</p>
+</main>
+<footer>
+  <p>Shorts Uploader is a personal tool operated by Stuart Robinson, United Kingdom. Contact: <a href="mailto:snapreel247@gmail.com">snapreel247@gmail.com</a></p>
+  <p><a href="index.html">Home</a> · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a></p>
+</footer>
+</body>
+</html>
